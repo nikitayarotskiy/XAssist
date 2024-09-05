@@ -1,6 +1,7 @@
 // === PAGES ===
 import Home from "./Pages/Home.jsx";
-import OurTeam from "./Pages/OurTeam.jsx"
+import Login from "./Pages/Login.jsx";
+
 // === ROUTER ===
 const routes = [
   {
@@ -8,8 +9,8 @@ const routes = [
     element: <Home />,
   },
   {
-    path: "/team",
-    element: <OurTeam />,
+    path: "/login",
+    element: <Login />,
   },
 ];
 
